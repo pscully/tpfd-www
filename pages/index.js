@@ -15,7 +15,6 @@ const thingsToDonate = [
   "rain coats/parkas",
   "umbrellas",
   "flashlights and batteries",
-  "*all items should be unused",
 ];
 
 const form = '<div data-paperform-id="0v26yvrl"></div>';
@@ -206,6 +205,7 @@ const Index = () => {
                     {thingsToDonate.map((thing, i) => {
                       return <li key={i} className="text-brand-accent">{thing}</li>;
                     })}
+                    <li className="text-brand-blue">*all items should be unused</li>
                   </ul>
                 </div>
               </div>
