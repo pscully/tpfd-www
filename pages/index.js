@@ -6,8 +6,7 @@ import ButtonStyled from '../components/ButtonStyled'
 
 const Index = () => (
   <div className={css(tw`grid justify-center items-center h-screen`)}>
-    <ButtonCss>@emotion/css</ButtonCss>
-    <ButtonReact>@emotion/react</ButtonReact>
+    
     <ButtonStyled>@emotion/styled</ButtonStyled>
   </div>
 )
