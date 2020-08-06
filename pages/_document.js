@@ -24,6 +24,7 @@ export default class MyDocument extends Document {
             dangerouslySetInnerHTML={{ __html: this.props.css }}
           />
           <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+          <script src="/paperform.js" />
         </Head>
         <body>
           <Main />
