@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 @tailwind base;
 
 p {
@@ -5,5 +7,7 @@ p {
 }
 
 @tailwind components;
+
+/* purgecss end ignore */
 
 @tailwind utilities;
