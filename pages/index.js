@@ -18,6 +18,8 @@ const thingsToDonate = [
   "*all items should be unused",
 ];
 
+const form = '<div data-paperform-id="0v26yvrl"></div>';
+
 const Index = () => {
   return (
     <>
@@ -201,8 +203,8 @@ const Index = () => {
                     Things to Donate
                   </h3>
                   <ul className="relative">
-                    {thingsToDonate.map((thing) => {
-                      return <li className="text-brand-accent">{thing}</li>;
+                    {thingsToDonate.map((thing, i) => {
+                      return <li key={i} className="text-brand-accent">{thing}</li>;
                     })}
                   </ul>
                 </div>
@@ -214,7 +216,7 @@ const Index = () => {
           <h2 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             Make a Donation
           </h2>
-          <div data-paperform-id="0v26yvrl"></div>
+          <div dangerouslySetInnerHTML={{__html: form}}></div>
         </div>
       </div>
       <div className="bg-white">
