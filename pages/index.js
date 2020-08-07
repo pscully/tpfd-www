@@ -144,7 +144,7 @@ const Index = () => {
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <a href="/" aria-label="Home">
                     <img
-                      className="w-auto h-48"
+                      className="w-auto h-56"
                       src="/sleepout_logo_nav.png"
                       alt="Sleep Out CLT Logo"
                     />
