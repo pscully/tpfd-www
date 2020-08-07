@@ -168,14 +168,18 @@ const Index = () => {
           </div>
           <main className="mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
-              <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-blue sm:text-5xl sm:leading-none md:text-6xl">
-                Sleep Out CLT
+              <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
+                The first annual
                 <br className="xl:hidden" />
-                <span className="text-brand-yellow font-extrabold">
+                <span className="text-brand-blue font-extrabold">
                   {" "}
-                  is the first annual event hosted by
+                  Sleep Out CLT <br></br>
                 </span>{" "}
-                the Phills Foundation
+                hosted by the <br></br>
+                <span className="text-brand-blue font-extrabold">
+                  {" "}
+                  Phills Foundation <br></br>
+                </span>{" "}
                 <span className="text-brand-yellow font-extrabold">
                   {" "}
                   and benefiting <br className="md:hidden"></br>
