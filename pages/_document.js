@@ -25,6 +25,20 @@ export default class MyDocument extends Document {
           />
           <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
           <script src="https://paperform.co/__embed" async></script>
+          <script data-cfasync="false">
+    var swarmoptions = {
+        swarmcdnkey: "c9733bba-0b30-4c52-a534-d8e546844f33",
+        iframeReplacement: "iframe",
+        autoreplace: {
+            youtube: true
+        },
+        theme: {
+            button: "circle",
+            primaryColor: "#ffc300"
+        }
+    };
+</script>
+<script async data-cfasync="false" src="https://assets.swarmcdn.com/cross/swarmdetect.js"></script>
         </Head>
         <body>
           <Main />

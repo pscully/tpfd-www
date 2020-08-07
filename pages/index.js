@@ -1,3 +1,14 @@
+import YouTube from "react-youtube";
+
+const videoOpts = {
+  height: "390",
+  width: "640",
+  playerVars: {
+    // https://developers.google.com/youtube/player_parameters
+    autoplay: 0,
+  },
+};
+
 const thingsToDonate = [
   "feminine hygiene products",
   "men and women’s underwear ",
@@ -19,11 +30,16 @@ const thingsToDonate = [
 
 const form = '<div data-paperform-id="0v26yvrl"></div>';
 
-const facebookLink = 'https://www.facebook.com/PhillsFoundation13';
+const facebookLink = "https://www.facebook.com/PhillsFoundation13";
 
-const instagramLink = 'https://instagram.com/phillsfoundation';
+const instagramLink = "https://instagram.com/phillsfoundation";
 
 const Index = () => {
+  const _onReady = (event) => {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  };
+
   return (
     <>
       <div className="relative bg-gray-50 overflow-hidden">
@@ -131,9 +147,9 @@ const Index = () => {
                 <br className="xl:hidden" />
                 <span className="text-brand-yellow font-extrabold">
                   {" "}
-                  is the first annual event hosted by 
-                </span>
-                {" "} the Phills Foundation
+                  is the first annual event hosted by
+                </span>{" "}
+                the Phills Foundation
                 <span className="text-brand-yellow font-extrabold">
                   {" "}
                   and benefiting <br className="md:hidden"></br>
@@ -189,6 +205,14 @@ const Index = () => {
             <p className="text-lg text-gray-500 leading-7">
               Block Love Charlotte will collect and distribute items on-site.
             </p>
+            {/* <img src="/volunteer.png" /> */}
+            <div className="mb-2">
+              <YouTube
+                videoId="CibnM2h0KSU"
+                opts={videoOpts}
+                onReady={_onReady}
+              />
+            </div>
             <p className="text-lg text-gray-500 leading-7">
               Show your support by{" "}
               <a
@@ -201,7 +225,6 @@ const Index = () => {
               </a>
               .
             </p>
-            <img src="/volunteer.png" />
           </div>
           <div className="w-full md:w-1/3">
             <blockquote className="relative bg-white rounded-lg shadow-lg">
@@ -212,9 +235,15 @@ const Index = () => {
                   </h3>
                   <ul className="relative">
                     {thingsToDonate.map((thing, i) => {
-                      return <li key={i} className="text-brand-accent">{thing}</li>;
+                      return (
+                        <li key={i} className="text-brand-accent">
+                          {thing}
+                        </li>
+                      );
                     })}
-                    <li className="text-brand-blue">*all items should be unused</li>
+                    <li className="text-brand-blue">
+                      *all items should be unused
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -225,13 +254,17 @@ const Index = () => {
           <h2 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             Make a Donation
           </h2>
-          <div dangerouslySetInnerHTML={{__html: form}}></div>
+          <div dangerouslySetInnerHTML={{ __html: form }}></div>
         </div>
       </div>
       <div className="bg-white">
         <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center md:order-2">
-            <a href={facebookLink} className="text-gray-400 hover:text-gray-500" rel="noopener noreferrer nofollow">
+            <a
+              href={facebookLink}
+              className="text-gray-400 hover:text-gray-500"
+              rel="noopener noreferrer nofollow"
+            >
               <span className="sr-only">Facebook</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path
