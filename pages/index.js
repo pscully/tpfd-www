@@ -91,14 +91,14 @@ const Index = () => {
             </svg>
           </div>
         </div>
-        <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+        <div className="relative pt-6 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
             <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <a href="/" aria-label="Home">
                     <img
-                      className="w-auto h-36"
+                      className="w-auto h-48"
                       src="/sleepout_logo_nav.png"
                       alt="Logo"
                     />
@@ -120,14 +120,19 @@ const Index = () => {
               </div>
             </nav>
           </div>
-          <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+          <main className="mt-4 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
-              <h1 className="text-3xl tracking-tight leading-10 font-extrabold text-brand-blue sm:text-5xl sm:leading-none md:text-6xl">
-                Sleep Out CLT is the first
+              <h1 className="text-3xl tracking-tight leading-10 font-black text-brand-blue sm:text-5xl sm:leading-none md:text-6xl">
+                Sleep Out CLT
                 <br className="xl:hidden" />
-                <span className="text-brand-yellow">
+                <span className="text-brand-yellow font-extrabold">
                   {" "}
-                  annual event hosted by the Phills Foundation and benefiting
+                  is the first annual event hosted by 
+                </span>
+                {" "} the Phills Foundation
+                <span className="text-brand-yellow font-extrabold">
+                  {" "}
+                  and benefiting
                   Block Love Charlotte.
                 </span>
               </h1>
@@ -153,7 +158,7 @@ const Index = () => {
                     href="#cause"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-brand-blue bg-white hover:text-brand-accent focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
-                    Our Cause
+                    Event Details
                   </a>
                 </div>
               </div>
