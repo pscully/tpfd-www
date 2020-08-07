@@ -190,7 +190,7 @@ const Index = () => {
                     </span>{" "}
                     <span className="text-brand-yellow font-extrabold">
                       {" "}
-                      and benefiting <br></br>
+                      and benefiting
                       Block Love Charlotte.
                     </span>
                   </h1>
