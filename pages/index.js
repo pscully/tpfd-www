@@ -167,7 +167,7 @@ const Index = () => {
             </nav>
           </div>
           <main className="mx-auto max-w-screen-xl px-4 md:mt-12">
-            <div className="px-12 text-right">
+            <div className="text-right">
               <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
                 The first annual<br></br>
                 <span className="text-brand-blue font-extrabold">
