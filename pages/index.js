@@ -152,13 +152,13 @@ const Index = () => {
                 </div>
               </div>
 
-              <div className="absolute flex items-center justify-end inset-y-0 right-0">
+              <div className="hidden absolute md:flex items-center justify-end inset-y-0 right-0">
                 <span className="inline-flex rounded-md shadow">
                   <a
                     href="#donate"
                     // data-paperform-id="0v26yvrl"
                     // data-popup-button="1"
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-brand-blue bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
                   >
                     Donate
                   </a>
@@ -166,8 +166,8 @@ const Index = () => {
               </div>
             </nav>
           </div>
-          <main className="mx-auto max-w-screen-xl px-4 mt-12">
-            <div className="px-12">
+          <main className="mx-auto max-w-screen-xl px-4 md:mt-12">
+            <div className="px-12 text-right">
               <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
                 The first annual<br></br>
                 <span className="text-brand-blue font-extrabold">
@@ -185,13 +185,13 @@ const Index = () => {
                   Block Love Charlotte.
                 </span>
               </h1>
-              <p className="mt-3 mx-auto text-base text-gray-500 sm:text-lg md:mt-5">
+              <p className="mt-3 mx-auto max-w-md text-base text-center text-gray-500 sm:text-lg md:mt-5">
                 The Phills family and friends will sleep out in solidarity for
                 one night with Charlotte’s homeless community to bring awareness
                 to the growing need for innovative sheltering and low income
                 housing solutions in our growing city.
               </p>
-              <div className="mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
+              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <a
                     href="#donate"
