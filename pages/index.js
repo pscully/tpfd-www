@@ -92,7 +92,7 @@ const Index = () => {
           </div>
         </div>
         <div className="relative pt-6 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
-          <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
+          <div className="max-w-screen-xl mx-auto md:mt-4 px-4 sm:px-6">
             <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
@@ -100,7 +100,7 @@ const Index = () => {
                     <img
                       className="w-auto h-48"
                       src="/sleepout_logo_nav.png"
-                      alt="Logo"
+                      alt="Sleep Out CLT Logo"
                     />
                   </a>
                 </div>
@@ -120,9 +120,9 @@ const Index = () => {
               </div>
             </nav>
           </div>
-          <main className="mt-4 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+          <main className="mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
-              <h1 className="text-3xl tracking-tight leading-10 font-black text-brand-blue sm:text-5xl sm:leading-none md:text-6xl">
+              <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-blue sm:text-5xl sm:leading-none md:text-6xl">
                 Sleep Out CLT
                 <br className="xl:hidden" />
                 <span className="text-brand-yellow font-extrabold">
@@ -132,7 +132,7 @@ const Index = () => {
                 {" "} the Phills Foundation
                 <span className="text-brand-yellow font-extrabold">
                   {" "}
-                  and benefiting
+                  and benefiting <br className="md:hidden"></br>
                   Block Love Charlotte.
                 </span>
               </h1>
