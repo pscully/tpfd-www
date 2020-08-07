@@ -138,10 +138,10 @@ const Index = () => {
           </div>
         </div>
         <div className="relative pt-6 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
-          <div className="max-w-screen-xl mx-auto md:mt-4 px-4 sm:px-6">
+          <div className="max-w-screen-xl mx-auto md:mt-4 px-4 sm:px-6 md:hidden">
             <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-                <div className="flex items-center justify-between w-full md:w-auto">
+                <div className="flex justify-center">
                   <a href="/" aria-label="Home">
                     <img
                       className="w-auto h-64"
@@ -168,23 +168,54 @@ const Index = () => {
           </div>
           <main className="mx-auto max-w-screen-xl px-4 md:mt-12">
             <div className="text-right">
-              <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
-                The first annual<br></br>
-                <span className="text-brand-blue font-extrabold">
-                  {" "}
-                  Sleep Out CLT <br></br>
-                </span>{" "}
-                hosted by the <br></br>
-                <span className="text-brand-blue font-extrabold">
-                  {" "}
-                  Phills Foundation <br></br>
-                </span>{" "}
-                <span className="text-brand-yellow font-extrabold">
-                  {" "}
-                  and benefiting <br></br>
-                  Block Love Charlotte.
-                </span>
-              </h1>
+              <div className="md:flex hidden">
+                <div className="w-1/2">
+                  <img
+                    className="w-auto"
+                    src="/sleepout_banner.png"
+                    alt="Sleep Out CLT Logo"
+                  />
+                </div>
+                <div className="w-1/2">
+                  <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
+                    The first annual<br></br>
+                    <span className="text-brand-blue font-extrabold">
+                      {" "}
+                      Sleep Out CLT <br></br>
+                    </span>{" "}
+                    hosted by the <br></br>
+                    <span className="text-brand-blue font-extrabold">
+                      {" "}
+                      Phills Foundation <br></br>
+                    </span>{" "}
+                    <span className="text-brand-yellow font-extrabold">
+                      {" "}
+                      and benefiting <br></br>
+                      Block Love Charlotte.
+                    </span>
+                  </h1>
+                </div>
+              </div>
+              <div className="md:hidden">
+              
+                  <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
+                    The first annual<br></br>
+                    <span className="text-brand-blue font-extrabold">
+                      {" "}
+                      Sleep Out CLT <br></br>
+                    </span>{" "}
+                    hosted by the <br></br>
+                    <span className="text-brand-blue font-extrabold">
+                      {" "}
+                      Phills Foundation <br></br>
+                    </span>{" "}
+                    <span className="text-brand-yellow font-extrabold">
+                      {" "}
+                      and benefiting <br></br>
+                      Block Love Charlotte.
+                    </span>
+                  </h1>
+              </div>
               <p className="max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 The Phills family and friends will sleep out in solidarity for
                 one night with Charlotte’s homeless community to bring awareness
