@@ -19,6 +19,10 @@ const thingsToDonate = [
 
 const form = '<div data-paperform-id="0v26yvrl"></div>';
 
+const facebookLink = 'https://www.facebook.com/PhillsFoundation13';
+
+const instagramLink = 'https://instagram.com/phillsfoundation';
+
 const Index = () => {
   return (
     <>
@@ -227,7 +231,7 @@ const Index = () => {
       <div className="bg-white">
         <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center md:order-2">
-            <a href="#" className="text-gray-400 hover:text-gray-500">
+            <a href={facebookLink} className="text-gray-400 hover:text-gray-500" rel="noopener noreferrer nofollow">
               <span className="sr-only">Facebook</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -238,8 +242,9 @@ const Index = () => {
               </svg>
             </a>
             <a
-              href="https://instagram.com/phillsfoundation"
+              href={instagramLink}
               className="ml-6 text-gray-400 hover:text-gray-500"
+              rel="noopener noreferrer nofollow"
             >
               <span className="sr-only">Instagram</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
