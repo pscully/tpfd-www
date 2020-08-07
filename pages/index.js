@@ -144,8 +144,8 @@ const Index = () => {
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <a href="/" aria-label="Home">
                     <img
-                      className="w-auto h-56"
-                      src="/sleepout_logo_nav.png"
+                      className="w-auto h-64"
+                      src="/sleepout-logo-nav.png"
                       alt="Sleep Out CLT Logo"
                     />
                   </a>
@@ -185,7 +185,7 @@ const Index = () => {
                   Block Love Charlotte.
                 </span>
               </h1>
-              <p className="mt-3 mx-auto max-w-md text-base text-center text-gray-500 sm:text-lg md:mt-5">
+              <p className="max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 The Phills family and friends will sleep out in solidarity for
                 one night with Charlotte’s homeless community to bring awareness
                 to the growing need for innovative sheltering and low income
