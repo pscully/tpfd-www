@@ -166,7 +166,7 @@ const Index = () => {
               </div>
             </nav>
           </div>
-          <main className="mx-auto max-w-screen-xl px-4 md:mt-12">
+          <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-10">
             <div className="text-right">
               <div className="md:flex hidden">
                 <div className="w-1/2">
@@ -176,7 +176,7 @@ const Index = () => {
                     alt="Sleep Out CLT Logo"
                   />
                 </div>
-                <div className="w-1/2">
+                <div className="md:w-1/2">
                   <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
                     The first annual<br></br>
                     <span className="text-brand-blue font-extrabold">
