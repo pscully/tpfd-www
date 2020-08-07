@@ -28,7 +28,7 @@ export default class MyDocument extends Document {
           <script
             data-cfasync="false"
             dangerouslySetInnerHTML={{
-              __html: `const swarmoptions = {
+              __html: `var swarmoptions = {
                 swarmcdnkey: "c9733bba-0b30-4c52-a534-d8e546844f33",
                 iframeReplacement: "iframe",
                 autoreplace: {

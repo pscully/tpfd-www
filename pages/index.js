@@ -1,12 +1,38 @@
-import YouTube from "react-youtube";
+// import YouTube from "react-youtube";
 
-const videoOpts = {
-  height: "390",
-  width: "640",
-  playerVars: {
-    // https://developers.google.com/youtube/player_parameters
-    autoplay: 0,
-  },
+// const videoOpts = {
+//   position: "absolute",
+//   height: "500px",
+//   width: "100%",
+//   playerVars: {
+//     // https://developers.google.com/youtube/player_parameters
+//     autoplay: 0,
+//   },
+// };
+
+const YouTubeVideo = (props) => {
+  const videoSrc =
+    "https://www.youtube.com/embed/" +
+    props.video +
+    "?autoplay=" +
+    props.autoplay +
+    "&rel=" +
+    props.rel +
+    "&modestbranding=" +
+    props.modest;
+
+  return (
+    <div className="video-container">
+      <iframe
+        className="player"
+        type="text/html"
+        width="100%"
+        height="100%"
+        src={videoSrc}
+        frameBorder="0"
+      />
+    </div>
+  );
 };
 
 const thingsToDonate = [
@@ -206,11 +232,18 @@ const Index = () => {
               Block Love Charlotte will collect and distribute items on-site.
             </p>
             {/* <img src="/volunteer.png" /> */}
-            <div className="mb-2">
-              <YouTube
-                videoId="CibnM2h0KSU"
-                opts={videoOpts}
-                onReady={_onReady}
+
+            <div className="mb-2 md:pr-24">
+              {/* <YouTube
+                  videoId="CibnM2h0KSU"
+                  opts={videoOpts}
+                  onReady={_onReady}
+                /> */}
+              <YouTubeVideo
+                video="CibnM2h0KSU"
+                autoplay="0"
+                rel="0"
+                modest="1"
               />
             </div>
             <p className="text-lg text-gray-500 leading-7">
