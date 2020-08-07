@@ -166,11 +166,10 @@ const Index = () => {
               </div>
             </nav>
           </div>
-          <main className="mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
-            <div className="text-center">
+          <main className="mx-auto max-w-screen-xl px-4 mt-12">
+            <div className="px-12">
               <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
-                The first annual
-                <br className="xl:hidden" />
+                The first annual<br></br>
                 <span className="text-brand-blue font-extrabold">
                   {" "}
                   Sleep Out CLT <br></br>
@@ -182,17 +181,17 @@ const Index = () => {
                 </span>{" "}
                 <span className="text-brand-yellow font-extrabold">
                   {" "}
-                  and benefiting <br className="md:hidden"></br>
+                  and benefiting <br></br>
                   Block Love Charlotte.
                 </span>
               </h1>
-              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              <p className="mt-3 mx-auto text-base text-gray-500 sm:text-lg md:mt-5">
                 The Phills family and friends will sleep out in solidarity for
                 one night with Charlotte’s homeless community to bring awareness
                 to the growing need for innovative sheltering and low income
                 housing solutions in our growing city.
               </p>
-              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+              <div className="mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <a
                     href="#donate"
