@@ -172,7 +172,7 @@ const Index = () => {
                 <div className="w-1/2">
                   <img
                     className="w-auto"
-                    src="/sleepout_banner.png"
+                    src="/sleepout-logo-banner.png"
                     alt="Sleep Out CLT Logo"
                   />
                 </div>
