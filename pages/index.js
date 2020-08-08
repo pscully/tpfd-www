@@ -24,7 +24,7 @@ const YouTubeVideo = (props) => {
   return (
     <div className="video-container">
       <iframe
-        className="player"
+        className="player swarm-fluid"
         type="text/html"
         width="100%"
         height="100%"
