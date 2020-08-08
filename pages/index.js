@@ -15,7 +15,7 @@ const YouTubeVideo = (props) => {
 
   return (
     <div className="video-container">
-      <iframe
+      {/* <iframe
         className="player"
         type="text/html"
         width="100%"
@@ -23,7 +23,8 @@ const YouTubeVideo = (props) => {
         src={videoSrc}
         frameBorder="0"
         playsinline
-      />
+      /> */}
+      <smartvideo src="/sleepout-charlotte.mp4" width="1280" height="720" class="swarm-fluid" poster="/thumb.jpg" controls playsinline></smartvideo>
     </div>
   );
 };
