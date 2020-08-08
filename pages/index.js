@@ -11,15 +11,7 @@
 // };
 
 const YouTubeVideo = (props) => {
-  const videoSrc =
-    "https://www.youtube.com/embed/" +
-    props.video +
-    "?autoplay=" +
-    props.autoplay +
-    "&rel=" +
-    props.rel +
-    "&modestbranding=" +
-    props.modest;
+  const videoSrc = "https://www.youtube.com/embed/" + props.video;
 
   return (
     <div className="video-container">
@@ -30,6 +22,7 @@ const YouTubeVideo = (props) => {
         height="100%"
         src={videoSrc}
         frameBorder="0"
+        playsinline
       />
     </div>
   );
@@ -190,31 +183,29 @@ const Index = () => {
                     </span>{" "}
                     <span className="text-brand-yellow font-extrabold">
                       {" "}
-                      and benefiting
-                      Block Love Charlotte.
+                      and benefiting Block Love Charlotte.
                     </span>
                   </h1>
                 </div>
               </div>
               <div className="md:hidden mb-4">
-              
-                  <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
-                    The first annual<br></br>
-                    <span className="text-brand-blue font-extrabold">
-                      {" "}
-                      Sleep Out CLT <br></br>
-                    </span>{" "}
-                    hosted by the <br></br>
-                    <span className="text-brand-blue font-extrabold">
-                      {" "}
-                      Phills Foundation <br></br>
-                    </span>{" "}
-                    <span className="text-brand-yellow font-extrabold">
-                      {" "}
-                      and benefiting <br></br>
-                      Block Love Charlotte.
-                    </span>
-                  </h1>
+                <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
+                  The first annual<br></br>
+                  <span className="text-brand-blue font-extrabold">
+                    {" "}
+                    Sleep Out CLT <br></br>
+                  </span>{" "}
+                  hosted by the <br></br>
+                  <span className="text-brand-blue font-extrabold">
+                    {" "}
+                    Phills Foundation <br></br>
+                  </span>{" "}
+                  <span className="text-brand-yellow font-extrabold">
+                    {" "}
+                    and benefiting <br></br>
+                    Block Love Charlotte.
+                  </span>
+                </h1>
               </div>
               <p className="max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 The Phills family and friends will sleep out in solidarity for
