@@ -147,7 +147,7 @@ const Index = () => {
               <div className="md:flex hidden">
                 <div className="w-1/2">
                   <img
-                    className="w-auto"
+                    className="w-full"
                     src="/sleepout-logo-banner.png"
                     alt="Sleep Out CLT Logo"
                   />
@@ -291,11 +291,19 @@ const Index = () => {
             </blockquote>
           </div>
         </div>
-        <div className="my-12 mx-auto" id="donate">
+        <div className="container mx-auto" id="donate">
           <h2 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            Make a Donation
+            Make a Monetary Donation
           </h2>
-          <div dangerouslySetInnerHTML={{ __html: form }}></div>
+          <div className="flex flex-wrap-reverse">
+            <div className="w-full md:w-1/2">
+            <img src="/phills-logo.png" alt="Phills Foundation Logo"/>
+            </div>
+            <div className="w-full md:w-1/2">
+            <div dangerouslySetInnerHTML={{ __html: form }} />
+
+            </div>
+          </div>
         </div>
       </div>
       <div className="bg-white">
