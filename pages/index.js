@@ -145,28 +145,29 @@ const Index = () => {
           <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-10">
             <div className="text-right">
               <div className="md:flex hidden">
-                <div className="w-1/2">
+                <div className="w-5/12">
                   <img
                     className="w-full"
                     src="/sleepout-logo-banner.png"
                     alt="Sleep Out CLT Logo"
                   />
                 </div>
-                <div className="md:w-1/2">
-                  <h1 className="text-4xl tracking-tight leading-10 font-black text-brand-yellow sm:text-5xl sm:leading-none md:text-6xl">
+                <div className="md:w-7/12">
+                  <h1 className="text-4xl tracking-tight leading-10 font-extrabold text-brand-yellow sm:text-4xl sm:leading-none md:text-6xl">
                     The first annual<br></br>
                     <span className="text-brand-blue font-extrabold">
                       {" "}
                       Sleep Out CLT <br></br>
                     </span>{" "}
                     hosted by the <br></br>
-                    <span className="text-brand-blue font-extrabold">
+                    <span className="text-brand-blue font-extrabold tracking-tight leading-10 sm:text-5xl sm:leading-none md:text-6xl">
                       {" "}
                       Phills Foundation <br></br>
                     </span>{" "}
-                    <span className="text-brand-yellow font-extrabold">
+                    <span className="text-brand-yellow font-extrabold tracking-tight leading-10 sm:text-5xl sm:leading-none md:text-6xl">
                       {" "}
-                      and benefiting Block Love Charlotte.
+                      and benefiting<br></br>
+                      Block Love Charlotte.
                     </span>
                   </h1>
                 </div>
