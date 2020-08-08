@@ -1,30 +1,16 @@
-// import YouTube from "react-youtube";
-
-// const videoOpts = {
-//   position: "absolute",
-//   height: "500px",
-//   width: "100%",
-//   playerVars: {
-//     // https://developers.google.com/youtube/player_parameters
-//     autoplay: 0,
-//   },
-// };
-
 const YouTubeVideo = (props) => {
-  const videoSrc = "https://www.youtube.com/embed/" + props.video;
 
   return (
     <div className="video-container">
-      {/* <iframe
-        className="player"
-        type="text/html"
-        width="100%"
-        height="100%"
-        src={videoSrc}
-        frameBorder="0"
+      <smartvideo
+        src="/sleepout-charlotte.mp4"
+        width="1280"
+        height="720"
+        class="swarm-fluid"
+        poster="/thumb.jpg"
+        controls
         playsinline
-      /> */}
-      <smartvideo src="/sleepout-charlotte.mp4" width="1280" height="720" class="swarm-fluid" poster="/thumb.jpg" controls playsinline></smartvideo>
+      ></smartvideo>
     </div>
   );
 };
@@ -55,10 +41,6 @@ const facebookLink = "https://www.facebook.com/PhillsFoundation13";
 const instagramLink = "https://instagram.com/phillsfoundation";
 
 const Index = () => {
-  const _onReady = (event) => {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-  };
 
   return (
     <>
