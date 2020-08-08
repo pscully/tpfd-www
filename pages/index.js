@@ -232,7 +232,7 @@ const Index = () => {
             </h2>
             <p className="text-lg text-gray-500 leading-7">
               Our tents will be set up at the corner of Phifer Avenue and N.
-              Tryon Street.
+              College Street
             </p>
             <p className="text-lg text-gray-500 leading-7">
               Stop by to hang out and drop off your donation items.
